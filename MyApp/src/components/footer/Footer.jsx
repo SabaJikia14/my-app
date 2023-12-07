@@ -7,38 +7,35 @@ function Footer() {
     <div className={styles.container}>
       <span>@all rights reserved</span>
       <div className={styles.socialNetworks}>
-        <Image
-        link="www.facebook.com"
+        <a href="https://facebook.com"><Image
           src="/1.png"
           width={15}
           className={styles.icon}
           height={15}
           alt="facebook"
-        />
-        <Image
-        link="www.instagram.com"
+        /></a>
+        <a href="https://instagram.com"><Image
           src="/2.png"
           width={15}
           className={styles.icon}
           height={15}
-          alt="instagram"      
-        />
-        <Image
-        link="www.twitter.com"
-          src="/3.png"
-          width={15}
-          className={styles.icon}
-          height={15}
-          alt="x"
-        />
-        <Image
-        link="www.youtube.com"
+          alt="instagram"
+        /></a>
+        <a href="https://twitter.com">
+          <Image
+            src="/3.png"
+            width={15}
+            className={styles.icon}
+            height={15}
+            alt="x"
+          /></a>
+        <a href="https://youtube.com"><Image
           src="/4.png"
           width={15}
           className={styles.icon}
           height={15}
           alt="youtube"
-        />
+        /></a>
       </div>
     </div>
   );
